@@ -1,6 +1,6 @@
 # Automated Lupine Mapping Pipeline
 
-Automated detection and mapping of *Lupinus nootkatensis* (Alaskan lupine) across Iceland using aerial imagery and Sentinel-2 satellite data. Developed at Náttúrufræðistofnun Íslands (Natural Science Institute of Iceland) as part of a national lupine distribution mapping project.
+Automated detection and mapping of *Lupinus nootkatensis* (Alaskan lupine) across Iceland using aerial imagery and Sentinel-2 satellite data. Developed at Náttúrufræðistofnun Íslands (Natural Science Institute of Iceland) as part of a summer project on lupine distribution mapping project funded through Nýsköpunarsjóður námsmanna (Icelandic Student Innovation Fund).
 
 ---
 
@@ -15,7 +15,7 @@ The pipeline consists of two independent but complementary mapping approaches:
 | Training area | Eastfjords | Eastfjords |
 | Features | 7–9 spectral + texture | 15 spectral |
 | Model | Random Forest / XGBoost | Random Forest |
-| Output | High-detail polygons | Wall-to-wall coverage |
+| Output | Detailed polygons | National coverage |
 
 ---
 
