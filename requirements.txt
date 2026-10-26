@@ -1,0 +1,34 @@
+# NATT_Sumarstarf_2026 — Lupine Mapping Pipeline
+# Install with: pip install -r requirements.txt
+
+# Core geospatial
+rasterio>=1.3
+geopandas>=0.14
+shapely>=2.0
+fiona>=1.9
+pyogrio>=0.7
+geoai-py
+lxml>=4.9
+
+# ML — scikit-learn pinned to match saved model version
+scikit-learn==1.6.1
+xgboost>=2.0
+joblib>=1.3
+
+# Numerical / data
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.13
+
+# Utilities
+requests>=2.31
+tqdm>=4.65
+psutil>=5.9
+
+# Notebook (optional — not needed if running as scripts)
+ipykernel>=6.0
+jupyter>=1.0
